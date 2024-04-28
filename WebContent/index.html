@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="Author" content="Manuel Martin Gonzalez">
+<meta name="Description" content="University of Almeria (Spain)">
+<title>Productor-Consumidor</title>
+</head>
+<body style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" alink="#990000" link="#043a66" vlink="#999900">
+	<center>
+		<br>
+		<b> <font face="Arial,Helvetica"> <font
+				color="#003366"><font size="+1"> Cliente Productor-Consumidor</font></font></font>
+		</b>
+	</center> <br>
+	<form
+		action="http://localhost:8080/Servlet/Servlet"
+		method="post">
+		<center>
+			<font face="Arial,Helvetica"><font size="-1">E-mail:</font></font>
+			<input name="email" size="20">		
+			<br><br>	
+			<font face="Arial,Helvetica"><font size="-1">Mensaje:</font></font>					
+			<p>
+				<textarea name="mensaje" rows="10" cols="40"></textarea>
+			</p>
+	  		<input name="action" value="Enviar" alt="Pulsar boton para enviar elemento al buffer" type="submit"/>
+     		<input value="Reset" alt="Pulsar boton para reset info." type="reset"/>
+     		<a>|</a>
+     		<input name="action" value="Recibir" alt="Pulsar boton para recibir ultimo elemento del buffer" type="submit"> 
+	 		<input name="action" value="Leer" alt="Pulsar boton para leer ultimo elemento del buffer" type="submit"> 
+	 		<a>|</a>
+	 		<input name="action" value="Ver buffer" alt="Pulsar boton para ver el contenido del buffer" type="submit"> 
+		</center>
+	</form>
+</body>
+</html>
